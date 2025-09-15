@@ -246,5 +246,5 @@ with gr.Blocks(theme=custom_theme) as demo:
     print("hellow")
 
 # Launch the interface
-if _name_ == "_main_":
+if __name__ == "__main__":
     demo.launch(share=True)
