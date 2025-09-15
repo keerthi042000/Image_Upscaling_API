@@ -1,2 +1,13 @@
-# Image_Upscaling_API
-DS 553 Case Study 1 API 
+---
+title: CSDS553 Case Study 1 API
+emoji: 💬
+colorFrom: yellow
+colorTo: green
+sdk: gradio
+sdk_version: 5.42.0
+app_file: app.py
+pinned: false
+hf_oauth: true
+hf_oauth_scopes:
+- inference-api
+---
