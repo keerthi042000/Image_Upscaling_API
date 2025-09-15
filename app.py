@@ -92,6 +92,8 @@ with gr.Blocks(title="Multilingual Translation Chatbot", theme="soft") as demo:
         outputs=[input_text, src_lang, tgt_lang, output_text]
     )
 
+    print("hellow")
+
 # Launch the interface
 if __name__ == "__main__":
     demo.launch(share=True)
