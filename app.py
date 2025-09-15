@@ -23,7 +23,7 @@ def call_inference_image(fileobj, scale: int = 2):
 with gr.Blocks() as demo:
     gr.Markdown("# API-based Upscaler (calls HF Inference API)")
     with gr.Row():
-        inp = gr.Image(type="file", label="Upload image")
+        inp = gr.Image(type="filepath", label="Upload image")
         scale = gr.Slider(2, 8, value=2, step=1, label="Scale (requested)")
     out_img = gr.Image(label="Result")
     latency = gr.Textbox(label="Latency")
